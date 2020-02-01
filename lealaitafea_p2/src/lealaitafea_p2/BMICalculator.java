@@ -157,9 +157,9 @@ public class BMICalculator {
 	}
 	public static void main(String[] args) 
 	{		
-		BMICalculator access = new BMICalculator();
-		access.readUserData();		
-		access.calculateBmi();
-		access.displayBmi();
+		BMICalculator app = new BMICalculator();
+		app.readUserData();		
+		app.calculateBmi();
+		app.displayBmi();
 	}
 }
