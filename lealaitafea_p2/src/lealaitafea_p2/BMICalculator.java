@@ -12,6 +12,8 @@ public class BMICalculator {
 	{
 		readUnitType();
 		readMeasurementData();
+		getWeight();
+		getHeight();
 	}
 	private void readUnitType()
 	{		
@@ -156,9 +158,7 @@ public class BMICalculator {
 	public static void main(String[] args) 
 	{		
 		BMICalculator access = new BMICalculator();
-		access.readUserData();
-		access.getWeight();
-		access.getHeight();
+		access.readUserData();		
 		access.calculateBmi();
 		access.displayBmi();
 	}
